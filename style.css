@@ -42,6 +42,23 @@ body {
   z-index: 1000;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:linear-gradient(to right, #101010, #292929);
+
+  /* Example gradient */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+
+
 #menu-icon {
   font-size: 3.5rem;
   color: var(--main-color);
