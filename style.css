@@ -1,12 +1,12 @@
-/* Universal Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: "Poppins";
-}
+  font-family: "Poppins", sans-serif;
+} /*changed */
+
 
 /* Root Variables */
 :root {
@@ -172,9 +172,11 @@ section {
   text-align: justify; 
   line-height: 1.8; 
   font-size: 1.9rem;
-  font-family: papyrus;
+  font-family: 'Papyrus', 'Poppins', serif;
   font-weight: 600;
-}
+}   
+  /* Changed */
+
 
 /* Image Styling */
 .home-img {
@@ -292,15 +294,16 @@ section {
  text-align: left
  }
 
- .about-content p {
+.about-content p {
   max-width: 600px; /* Ensures readability and consistent layout */
   margin: 2rem auto; /* Centers the paragraph horizontally */
   text-align: justify; /* Aligns text evenly across the width */
   line-height: 1.8; /* Provides comfortable spacing between lines */
   font-size: 1.8rem; /* Maintains a consistent font size */
-  font-family: papyrus; /* Uses a specific font for style */
+  font-family: 'Papyrus', 'Poppins', serif; /* Updated font stack */
   font-weight: 600; /* Sets a specific font weight for emphasis */
-}
+} */ changed */
+
 
  .about-content .btn{
   margin: 3rem 0;
